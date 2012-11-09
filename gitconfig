@@ -1,0 +1,11 @@
+[hub]
+	protocol = https
+[user]
+	name = Allison Kaptur
+	email = allison.kaptur@gmail.com
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
