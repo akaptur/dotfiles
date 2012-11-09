@@ -1,4 +1,5 @@
 PATH=/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin
+export EDITOR='subl -w'
 
 alias ll='ls -alhFG'
 alias git=hub
