@@ -1,4 +1,4 @@
-PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin
+PATH=/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin
 
 alias ll='ls -alhFG'
 alias git=hub
