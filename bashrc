@@ -14,4 +14,7 @@ fi
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
-PS1='\h:\w$(__git_ps1 " [%s]")\$ '
+
+char="`printf '\xE2\x9A\xB2'`"
+
+PS1='\W$(__git_ps1 " [%s]")\ '${char}
