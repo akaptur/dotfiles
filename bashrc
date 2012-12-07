@@ -4,6 +4,10 @@ export EDITOR='subl -w'
 alias ll='ls -alhFG'
 alias git=hub
 
+# Inspired by Nick's install_hs_db_tool.sh script
+alias dump_hs_db="curl -o hacker-school-prod-db.dump \`heroku pgbackups:url\`"
+alias load_hs_db="pg_restore --verbose --clean --no-acl --no-owner -h localhost -d hackerschool hacker-school-prod-db.dump"
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [[ -r $rvm_path/scripts/completion ]] && . $rvm_path/scripts/completion
 
