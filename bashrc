@@ -3,6 +3,7 @@ export EDITOR='subl -w'
 
 alias ll='ls -alhFG'
 alias git=hub
+alias pg='ps aux | grep $1'
 
 # Inspired by Nick's install_hs_db_tool.sh script
 alias dump_hs_db="curl -o hacker-school-prod-db.dump \`heroku pgbackups:url\`"
