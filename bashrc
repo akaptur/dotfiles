@@ -1,4 +1,4 @@
-PATH=/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin:/usr/local/smlnj-110.75/bin
+PATH=/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin:/usr/local/smlnj-110.75/bin:/Users/afk/src/julia
 export EDITOR='subl -w'
 
 alias ll='ls -alhFG'
