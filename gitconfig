@@ -9,3 +9,5 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[alias]
+    plog = log --oneline --graph --all --decorate -30
