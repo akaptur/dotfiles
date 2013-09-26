@@ -22,6 +22,6 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 
 char="`printf '\xE2\x9A\xB2'`"
 
-PS1='\W$(__git_ps1 " [%s]")\ '${char}
+PS1='\e[0;34m\W$(__git_ps1 " [%s]")\ '${char}'\e[m'
 
 export PYTHONSTARTUP=~/py3prompt.py
