@@ -26,3 +26,6 @@ PS1='\e[0;34m\W$(__git_ps1 " [%s]") '${char}' \e[m'
 
 export PYTHONSTARTUP=~/py3prompt.py
 alias bpython=bpython-scroll
+
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+export PATH=$PATH:/Users/afk/.pythonz/pythons/CPython-3.2/bin # python 3.2 at the end
